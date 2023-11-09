@@ -64,27 +64,27 @@ public class OrderRespository : IOrderRepository
         return clientOrder.Id;
     }
 
-    public Task DeliveryOrder(int orderId)
+    public async Task DeliveryOrder(int orderId)
     {
         throw new System.NotImplementedException();
     }
 
-    public Task FinishOrder(int orderId)
+    public async Task FinishOrder(int orderId)
     {
         throw new System.NotImplementedException();
     }
 
-    public Task<List<Product>> GetMenu(int orderId)
+    public async Task<List<Product>> GetMenu(int orderId)
     {
         throw new System.NotImplementedException();
     }
 
-    public Task<List<Product>> GetOrderItems(int orderId)
+    public async Task<List<Product>> GetOrderItems(int orderId)
     {
         throw new System.NotImplementedException();
     }
 
-    public Task RemoveItem(int orderId, int productId)
+    public async Task RemoveItem(int orderId, int productId)
     {
         throw new System.NotImplementedException();
     }
